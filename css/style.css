@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px #c9c9c9;
+}
+
+.fontGoogle {
+    font-family: 'Poppins', sans-serif;
+}
+
+.textoh1 {
+    font-size: clamp(2.40rem, 4.75vw, 2.30rem);
+    color: #fff;
+    font-weight: 600;
+}
+
+.textoParagrafo {
+    font-size: 16px;
+    color: #000;
+    text-align: justify;
+}
+
+.subTexto {
+    color: #616161;
+    font-weight: 400;
+}
+
+.sectionOne {
+    height: 50vh;
+    background-color: #08153E;
+}
+
+.sectionTwo {
+    height: 75vh;
+    color: #fff;
+    background-color: #08153e;
+}
+
+.conteudoPai {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.conteudoPai h2 {
+    padding-bottom: 5%;
+}
+
+.campoOne {
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.campoOne input {
+    display: inline-block;
+    font-size: larger;
+    color: #fff;
+    border: none;
+    border-radius: none;
+    border-bottom: 1px solid #888787;
+    background: none;
+    outline: none;
+}    
+
+.campoOne input:focus {
+    border-bottom: 1px solid #19b90b;
+}
+
+.campoOne label {
+    color: #fff;
+}
+
+.campoTwo input {
+    display: inline-block;
+    font-size: larger;
+    color: #fff;
+    border: none;
+    border-radius: none;
+    border-bottom: 1px solid #888787;
+    background: none;
+    outline: none;
+}
+
+.campoTwo input:focus {
+    border-bottom: 1px solid #19b90b;
+}
+
+.campoTwo label {
+    color: #fff;
+}
+
+.campoThree {
+    margin-top: 5%;
+}
+
+.btnSubmit {
+    margin-top: 3%;
+    border-radius: 20px;
+    padding: 10px;
+    background: none;
+    color: #fff;
+    border: 2px solid #1576d1;
+}
+
+.btnSubmit:hover {
+    cursor: pointer;
+    border: 2px solid #19b90b;
+    transition: .3s;
+}

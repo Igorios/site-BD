@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="container-fluid stick-top">
+        <nav class="navbar d-flex justify-content-between flex-column flex-sm-row flex-wrap ">
+            <ul class="nav nav-pills px-1">
+                <li>Igor</li>
+            </ul>
+            <ul class="nav nav-pills">
+                <li class="p-2">Home</li>
+                <li class="p-2">link</li>
+                <li class="p-2">link</li>
+            </ul>
+
+            <div class="nav nav-pills px-1">
+                <li>login</li>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container mt-1">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 sectionOne">
+                <h1 class="fontGoogle textoh1 py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur</h1>
+                <p class="fontGoogle subTexto">Lorem ipsum dolor sit amet Lorem ipsum dolor sit elit. Quasi?.</p>
+            </div>
+            <div class="col-md-6 col-sm-12 bg-success sectionOne" style="background: no-repeat center/cover url(./image/imagem-comp1.jpg);"></div>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="row mt-3 mx-3">
+            <div class="col-md-4 py-4">
+                <h3 class="fontGoogle">A trajetória dos avanços da tecnologia da informação e da comunicação nas escolas ena educação</h3>
+            </div>
+                <div class="col-md-4">
+                <h3 class="fontGoogle">Tecnologia</h3>
+                    <p class="fontGoogle textoParagrafo">Os avanços da tecnologia trouxeram grandes mudanças para osprofessores, mudou a forma de aprendizados dos alunos, e até a comunicação com os pais.</p>
+            </div>
+            <div class="col-md-4 py-4">
+                <h3 class="fontGoogle">A mudança na dinâmica da comunicação entre escola e família</h3>
+            </div>
+        </div>
+    </main>
+    <article class="container-fluid sectionTwo">
+        <div class="row conteudoPai">
+            <h2>Cadastre seus dados</h2>
+            <form action="cadastro/cadastro.php" method="POST">
+                <fieldset>
+                    <div class="row">
+                        <div class="campoOne col-md-4 col-sm-12">
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome" placeholder="digite aqui">
+                        </div>
+                        <div class="campoOne col-md-4 col-sm-12">
+                            <label for="sobrenome">Sobrenome:</label>
+                            <input type="text" name="sobrenome" id="sobrenome" placeholder="digite aqui">
+                        </div>
+                        <div class="campoOne col-md-4 col-sm-12">
+                            <label for="cidade">Cidade:</label>
+                            <input type="text" name="cidade" id="cidade" placeholder="digite aqui">
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+                        <div class="campoTwo col-md-6 col-sm-12">
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" name="telefone" id="telefone" placeholder="digite aqui"> 
+                        </div>
+                        <div class="campoTwo col-md-6 col-sm-12">
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" id="email" placeholder="digite aqui">
+
+                        </div>
+                    </div>
+
+                    <div class="campoThree">
+                        <input type="checkbox" name="confirma" id="confirma">
+                        <label for="confirma">Você aceita receber informações adicionais da empresa?</label>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Enviar" class="btnSubmit">
+            </form>
+        </div>
+    </article>
+
+</body>
+</html>
